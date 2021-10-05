@@ -89,16 +89,16 @@ def main():
     if result == "rock_uno":
         print("\nCongrats! You 'rocked' the world!\n")
         time.sleep(2)
-        play_loop()
+        loop()
     elif result == "rock_dos":
         print("\nSorry, the paper wrapped around you and made you feel like you're in your moms womb again.\n")
         time.sleep(2)
-        play_loop()
+        loop()
 
     elif result == "paper_uno":
         print("\nCongrats! You've sent the rock to santa to give him a gift!\n")
         time.sleep(2)
-        play_loop()
+        loop()
     elif result == "paper_dos":
         print("FINISH HIM!!!")
         time.sleep(1)
@@ -106,16 +106,16 @@ def main():
         time.sleep(1)
         print("\nSorry, you've been cut in half.\n")
         time.sleep(2)
-        play_loop()
+        loop()
 
     elif result == "scissors_uno":
         print("\nCongrats! You scissored the paper!\n")
         time.sleep(2)
-        play_loop()
+        loop()
     elif result == "scissors_dos":
         print("\nSorry, you've been Super Smashed Bro.\n")
         time.sleep(2)
-        play_loop()
+        loop()
     else:
         print("An error has occured")
         print("Forgive me and play again")
