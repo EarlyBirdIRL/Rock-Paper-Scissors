@@ -23,7 +23,7 @@ print("Let's play!")
 time.sleep(1)
 
 #replay
-def play_loop():
+def loop():
     play_game = ""
     while play_game not in ["y", "n","Y","N"]:
         play_game = input("Do You want to play again? Y or N \n")
